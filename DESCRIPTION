@@ -1,0 +1,14 @@
+Package: HeatMapUEB
+Title: Heamap plot
+Version: 0.0.0.9000
+Authors@R: person("Ricardo", "Gonzalo", email = "ricardo.gonzalo@vhir.org", role = c("aut", "cre"))
+Description: The package plots a Heatmap from a expression matrix, where the
+    first column are the GeneSymbols
+Depends:
+    R (>= 3.3.2)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+	gplots (>= 3.0.1)
+RoxygenNote: 5.0.1
